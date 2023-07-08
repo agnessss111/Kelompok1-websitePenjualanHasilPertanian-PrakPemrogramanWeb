@@ -13,6 +13,11 @@ use Midtrans\Snap;
 
 class OrderController extends Controller
 {
+	public function _construct()
+	{
+		parent::_construct();
+		$this->middleware('auth');
+	}
 	public function process()
 	{
         return view('frontend.order.checkout');

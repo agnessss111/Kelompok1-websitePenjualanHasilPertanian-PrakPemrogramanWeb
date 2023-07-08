@@ -6,7 +6,7 @@
     <meta name="keywords" content="Ogani, unica, creative, html" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Ogani | Template</title>
+    <title>Wesson | Ecommerce</title>
 
     <!-- Google Font -->
     <link
@@ -35,7 +35,7 @@
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
       <div class="humberger__menu__logo">
-        <a href="#"><img src="{{ asset('frontend/img/logo.png') }}" alt="" /></a>
+        <a href="#"><img src="{{ asset('frontend/img/farms.jpg') }}" alt="" /></a>
       </div>
       <div class="humberger__menu__cart">
         <ul>
@@ -46,7 +46,7 @@
             <a href="#"><i class="fa fa-shopping-bag"></i> <span>{{ $cartCount }}</span></a>
           </li>
         </ul>
-        <div class="header__cart__price">item: <span>${{ $cartTotal }}</span></div>
+        <div class="header__cart__price">item: <span>Rp.{{ $cartTotal }}</span></div>
       </div>
       <div class="humberger__menu__widget">
           @guest
@@ -89,7 +89,7 @@
               @endforeach
             </ul>
           </li>
-          <li><a href="#">Contact</a></li>
+          
         </ul>
       </nav>
       <div id="mobile-menu-wrap"></div>
@@ -101,8 +101,8 @@
       </div>
       <div class="humberger__menu__contact">
         <ul>
-          <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-          <li>Free Shipping for all Order of $99</li>
+          <li><i class="fa fa-envelope"></i> kelompok1@umi.com</li>
+          <li>Gratis Ongkir diatas $99,9</li>
         </ul>
       </div>
     </div>
@@ -116,8 +116,8 @@
             <div class="col-lg-6 col-md-6">
               <div class="header__top__left">
                 <ul>
-                  <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-                  <li>Free Shipping for all Order of $99</li>
+                  <li><i class="fa fa-envelope"></i> kelompok1@umi.com</li>
+                  <li>Gratis Ongkir diatas $99,9</li>
                 </ul>
               </div>
             </div>
@@ -164,7 +164,7 @@
         <div class="row">
           <div class="col-lg-3">
             <div class="header__logo">
-              <a href="/"><img src="{{ asset('frontend/img/logo.png') }}" alt="" /></a>
+              <a href="/"><img src="{{ asset('frontend/img/farms.jpg') }}" alt="" /></a>
             </div>
           </div>
           <div class="col-lg-6">
@@ -180,7 +180,6 @@
                     @endforeach
                   </ul>
                 </li>
-                <li><a href="#">Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -196,7 +195,7 @@
                   >
                 </li>
               </ul>
-              <div class="header__cart__price">item: <span>${{ $cartTotal }}</span></div>
+              <div class="header__cart__price">item: <span>Rp.{{ $cartTotal }}</span></div>
             </div>
           </div>
         </div>
@@ -224,7 +223,7 @@
                   <i class="fa fa-phone"></i>
                 </div>
                 <div class="hero__search__phone__text">
-                  <h5>+65 11.188.888</h5>
+                  <h5>+62 812.8878.9999</h5>
                   <span>support 24/7 time</span>
                 </div>
               </div>
@@ -244,12 +243,12 @@
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="footer__about">
               <div class="footer__about__logo">
-                <a href="./index.html"><img src="{{ asset('frontend/img/logo.png') }}" alt="" /></a>
+                <a href="./index.html"><img src="{{ asset('frontend/img/farms.jpg') }}" alt="" /></a>
               </div>
               <ul>
-                <li>Address: 60-49 Road 11378 New York</li>
-                <li>Phone: +65 11.188.888</li>
-                <li>Email: hello@colorlib.com</li>
+                <li>Alamat: Hang Tuah Medan</li>
+                <li>Phone: +62 812.8878.9999</li>
+                <li>Email: kelompok1@umi.com</li>
               </ul>
             </div>
           </div>
@@ -305,7 +304,7 @@
                   </script>
                   All rights reserved | This template is made with
                   <i class="fa fa-heart" aria-hidden="true"></i> by
-                  <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                  <a href="" target="_blank">Kelompok1</a>
                   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </p>
               </div>

@@ -180,9 +180,9 @@ class Controller extends BaseController
 	protected function initPaymentGateway()
 	{
 		// Set your Merchant Server Key
-		Config::$serverKey = config('midtrans.serverKey');
+		Config::$serverKey = config('midtrans.server_key');
 		// Set to Development/Sandbox Environment (default). Set to true for Production Environment (accept real transaction).
-		Config::$isProduction = config('midtrans.isProduction');
+		Config::$isProduction = false;
 		// Set sanitization on (default)
 		Config::$isSanitized = config('midtrans.isSanitized');
 		// Set 3DS transaction for credit card to true
